@@ -1,0 +1,68 @@
+.homeWidgetLeft {
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+.widgetLtTitle {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.widgetLtList {
+  list-style-type: none;
+}
+
+.widgetLtListItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.widgetLtListItem:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.widgetLtImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.widgetLtInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetLtName {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.widgetLtJob {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.widgetLtBtn {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.widgetLtBtn:hover {
+  background-color: #555;
+  color: white;
+}

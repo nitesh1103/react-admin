@@ -1,0 +1,157 @@
+.product {
+  flex: 4;
+  padding: 20px;
+}
+
+.productTitleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productTitle {
+  font-size: 30px;
+}
+
+.productCreateBtn {
+  border: none;
+  font-size: 18px;
+  padding: 5px 15px;
+  background-color: green;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.productTop {
+  display: flex;
+  gap: 20px;
+  margin: 0 40px;
+}
+
+.productTopLeft {
+  flex: 1;
+}
+
+.productTopRight {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productTopRightTitleWrapper {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.productTopRightImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.productTopRightName {
+  font-weight: bold;
+}
+
+.productTopRightInfoList {
+  width: 160px;
+  list-style-type: none;
+}
+
+.productTopRightInfoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.productTopRightInfoItemKey {
+  font-weight: 600;
+}
+
+.productTopRightInfoItemValue {
+  font-weight: 300;
+}
+
+.productTopRightInfoItemValue.red {
+  color: red;
+}
+
+.productTopRightInfoItemValue.green {
+  color: green;
+}
+
+.productBottom {
+  padding: 20px;
+  margin: 20px 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productForm {
+  display: flex;
+  justify-content: space-around;
+}
+
+.productFormFields {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.productFormInput {
+  border: none;
+  border-bottom: solid 1px gray;
+  padding: 5px;
+}
+
+.productFormInput:focus {
+  outline: none;
+}
+
+.productFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productUpload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.productUploadImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.productUploadFile {
+  cursor: pointer;
+  color: darkblue;
+}
+
+.productFormUpdateBtn {
+  border: none;
+  padding: 5px;
+  background-color: darkblue;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}

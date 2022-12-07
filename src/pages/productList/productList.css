@@ -1,0 +1,56 @@
+.productList {
+  flex: 4;
+}
+
+.productListProduct {
+  display: flex;
+  align-items: center;
+}
+
+.productListProdImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.productListStatus {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.productListStatusDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.productListStatusDot.green {
+  background-color: green;
+}
+
+.productListStatusDot.red {
+  background-color: red;
+}
+
+.productListActions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.productListActionEdit {
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
+
+.productListDeleteBtn {
+  color: red;
+  cursor: pointer;
+}

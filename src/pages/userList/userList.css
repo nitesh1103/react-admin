@@ -1,0 +1,64 @@
+.userList {
+  flex: 4;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userListUserImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userListUserName {
+  font-weight: 600;
+}
+
+.userListStatus {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userListStatusDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.userListStatusDot.red {
+  background-color: #f00;
+}
+
+.userListStatusDot.green {
+  background-color: green;
+}
+
+.userListStatusText {
+  text-transform: capitalize;
+}
+
+.userListAction {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userListActionEdit {
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
+
+.userListActionDelete {
+  color: #f00;
+  cursor: pointer;
+}

@@ -1,0 +1,168 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+
+.userTitleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.userTitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.userCreateBtn {
+  border: none;
+  font-size: 18px;
+  padding: 5px 15px;
+  background-color: green;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.userContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.userInfoBox {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.userInfoTop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userInfoTopImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userInfoTopTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfoTopName {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.userInfoTopJob {
+  font-size: 14px;
+}
+
+.userInfoBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 17px;
+  color: #555;
+}
+
+.userInfoBottomTitle {
+  font-weight: 600;
+  color: gray;
+}
+
+.userInfoBottomDetails {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userUpdateBox {
+  flex: 2;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.userUpdateTitle {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.userUpdateForm {
+  width: 100%;
+  display: flex;
+}
+
+.userUpdateFormLeft {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.userUpdateFieldGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.userUpdateFieldGroup label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.userUpdateFieldGroup input {
+  border: none;
+  border-bottom: solid 1px gray;
+  padding: 8px 0;
+  width: 80%;
+}
+
+.userUpdateFieldGroup input:focus {
+  outline: none;
+}
+
+.userUpdateFormRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.userUpdateImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.userUpdateFileIcon {
+  cursor: pointer;
+}
+
+.userUpdateBtn {
+  border: none;
+  background-color: darkblue;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+}

@@ -1,0 +1,42 @@
+.newProduct {
+  flex: 4;
+  padding: 20px;
+}
+
+.newProductTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.newProductForm {
+  width: 250px;
+}
+
+.newProductFields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.newProductFields input,
+.newProductFields select {
+  padding: 8px;
+  border: solid 1px gray;
+}
+
+.newProductFile {
+  border: none !important;
+}
+
+.newProductCreateBtn {
+  border: none;
+  width: 140px;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
